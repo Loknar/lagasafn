@@ -1,15 +1,75 @@
 # Lagasafn raðað í tímaröð (nýjast efst)
 
+* [2020  nr. 24  21. mars](2020024.md) Lög um tímabundnar greiðslur vegna launa einstaklinga sem sæta sóttkví samkvæmt fyrirmælum heilbrigðisyfirvalda án þess að vera sýktir
+* [2020  nr. 20  16. mars](2020020.md) Lög um samvinnu stjórnvalda á Evrópska efnahagssvæðinu um neytendavernd
+* [2020  nr. 14  3. mars](2020014.md) Lög um lýsingu verðbréfa sem boðin eru í almennu útboði eða tekin til viðskipta á skipulegum markaði
+* [2020  nr. 7  17. febrúar](2020007.md) Lög um verðbréfamiðstöðvar, uppgjör og rafræna  eignarskráningu fjármálagerninga
+* [2019  nr. 165  23. desember](2019165.md) Lög um sviðslistir
+* [2019  nr. 151  23. desember](2019151.md) Lög um úrvinnslu eigna og skulda ÍL-sjóðs
+* [2019  nr. 150  23. desember](2019150.md) Lög um innheimtu opinberra skatta og gjalda
+* [2019  nr. 140  13. desember](2019140.md) Lög um skráningu einstaklinga
+* [2019  nr. 137  22. desember](2019137.md) Lög um Húsnæðis- og mannvirkjastofnun
+* [2019  nr. 128  6. desember](2019128.md) Lög um heimild til að greiða bætur vegna dóms  Hæstaréttar í máli nr. 521/2017
+* [2019  nr. 125  29. október](2019125.md) Lög um ráðstafanir til hagkvæmrar uppbyggingar háhraðafjarskiptaneta
+* [2019  nr. 121  22. október](2019121.md) Lög um ráðstafanir vegna útgöngu Bretlands úr Evrópusambandinu og Evrópska efnahagssvæðinu
+* [2019  nr. 119  9. október](2019119.md) Lög um skráningarskyldu félaga til almannaheilla  með starfsemi yfir landamæri
+* [2019  nr. 98  1. júlí](2019098.md) Lög um póstþjónustu
+* [2019  nr. 95  1. júlí](2019095.md) Lög um menntun, hæfni og ráðningu kennara og skólastjórnenda við leikskóla, grunnskóla og framhaldsskóla
+* [2019  nr. 94  1. júlí](2019094.md) Lög um endurskoðendur og endurskoðun
+* [2019  nr. 92  1. júlí](2019092.md) Lög um Seðlabanka Íslands
+* [2019  nr. 89  27. júní](2019089.md) Lög um töku gjalds vegna fiskeldis í sjó og fiskeldissjóð
+* [2019  nr. 88  27. júní](2019088.md) Lög um sameiginlega umsýslu höfundarréttar
+* [2019  nr. 82  27. júní](2019082.md) Lög um skráningu raunverulegra eigenda
+* [2019  nr. 81  25. júní](2019081.md) Lög um úrskurðaraðila á sviði neytendamála
+* [2019  nr. 80  1. júlí](2019080.md) Lög um kynrænt sjálfræði
+* [2019  nr. 78  25. júní](2019078.md) Lög um öryggi net- og upplýsingakerfa mikilvægra innviða
+* [2019  nr. 77  25. júní](2019077.md) Umferðarlög
+* [2019  nr. 75  25. júní](2019075.md) Lög um vinnslu persónuupplýsinga í löggæslutilgangi
+* [2019  nr. 74  25. júní](2019074.md) Lög um Höfðaborgarsamninginn um alþjóðleg tryggingarréttindi í hreyfanlegum búnaði og bókun um búnað loftfara
+* [2019  nr. 70  24. júní](2019070.md) Lög um vandaða starfshætti í vísindum
+* [2019  nr. 66  24. júní](2019066.md) Lög um samtök um evrópska rannsóknarinnviði (ERIC)
+* [2019  nr. 65  25. júní](2019065.md) Lög um lýðskóla
+* [2019  nr. 64  24. júní](2019064.md) Lög um frystingu fjármuna og skráningu aðila á lista yfir þvingunaraðgerðir  í tengslum við fjármögnun hryðjuverka og útbreiðslu gereyðingarvopna
+* [2019  nr. 62  21. júní](2019062.md) Lög um dreifingu vátrygginga
+* [2019  nr. 55  21. júní](2019055.md) Lög um rafræna auðkenningu og traustþjónustu fyrir rafræn viðskipti
+* [2019  nr. 45  25. maí](2019045.md) Lög um samskiptaráðgjafa íþrótta- og æskulýðsstarfs
+* [2019  nr. 43  22. maí](2019043.md) Lög um þungunarrof
+* [2019  nr. 35  15. maí](2019035.md) Lög um ófrjósemisaðgerðir
+* [2019  nr. 33  15. maí](2019033.md) Lög um skóga og skógrækt
+* [2019  nr. 31  15. maí](2019031.md) Lög um milligjöld fyrir kortatengdar greiðslur
+* [2019  nr. 30  15. maí](2019030.md) Lög um ökutækjatryggingar
+* [2018  nr. 155  21. desember](2018155.md) Lög um landgræðslu
+* [2018  nr. 145  18. desember](2018145.md) Lög um veiðigjald
+* [2018  nr. 144  18. desember](2018144.md) Lög um refsingar fyrir hópmorð, glæpi gegn mannúð, stríðsglæpi og glæpi gegn friði
+* [2018  nr. 140  21. desember](2018140.md) Lög um aðgerðir gegn peningaþvætti og fjármögnun hryðjuverka
+* [2018  nr. 130  20. desember](2018130.md) Lög um stuðning við útgáfu bóka á íslensku
+* [2018  nr. 119  7. desember](2018119.md) Forsetaúrskurður um skiptingu stjórnarmálefna milli ráðuneyta í Stjórnarráði Íslands
+* [2018  nr. 118  7. desember](2018118.md) Forsetaúrskurður um skiptingu Stjórnarráðs Íslands í ráðuneyti
+* [2018  nr. 96  26. júní](2018096.md) Lög um Ferðamálastofu
+* [2018  nr. 95  25. júní](2018095.md) Lög um pakkaferðir og samtengda ferðatilhögun
+* [2018  nr. 90  27. júní](2018090.md) Lög um persónuvernd og vinnslu persónuupplýsinga
+* [2018  nr. 88  26. júní](2018088.md) Lög um skipulag haf- og strandsvæða
+* [2018  nr. 87  25. júní](2018087.md) Lög um rafrettur og áfyllingar fyrir rafrettur
+* [2018  nr. 86  25. júní](2018086.md) Lög um jafna meðferð á vinnumarkaði
+* [2018  nr. 85  25. júní](2018085.md) Lög um jafna meðferð óháð kynþætti og þjóðernisuppruna
+* [2018  nr. 84  25. júní](2018084.md) Lög um bann við tilteknum frammistöðubætandi efnum og lyfjum
+* [2018  nr. 81  25. júní](2018081.md) Lög um köfun
+* [2018  nr. 80  25. júní](2018080.md) Lög um lögheimili og aðsetur
+* [2018  nr. 70  20. júní](2018070.md) Lög um Þjóðskrá Íslands
+* [2018  nr. 60  19. júní](2018060.md) Lög um brottfall laga um kjararáð, nr. 130/2016, með síðari breytingum
+* [2018  nr. 45  23. maí](2018045.md) Lög um endurnot opinberra upplýsinga
+* [2018  nr. 42  23. maí](2018042.md) Lög um brottfall laga um Lífeyrissjóð bænda, nr. 12/1999, með síðari breytingum
+* [2018  nr. 38  9. maí](2018038.md) Lög um þjónustu við fatlað fólk með langvarandi stuðningsþarfir
+* [2018  nr. 30  7. maí](2018030.md) Lög um Matvælastofnun
+* [2018  nr. 15  5. apríl](2018015.md) Lög um afleiðuviðskipti, miðlæga mótaðila og afleiðuviðskiptaskrár
+* [2018  nr. 8  9. febrúar](2018008.md) Forsetaúrskurður um sendiráð, fastanefndir hjá alþjóðastofnunum og sendiræðisskrifstofur
 * [2017  nr. 61  14. júní](2017061.md) Lög um viðbótareftirlit með fjármálasamsteypum
 * [2017  nr. 60  14. júní](2017060.md) Lög um vátryggingasamstæður
 * [2017  nr. 55  14. júní](2017055.md) Lög um skortsölu og skuldatryggingar
 * [2017  nr. 50  14. júní](2017050.md) Lög um lánshæfismatsfyrirtæki
-* [2017  nr. 35  14. júní](2017035.md) Lög um brottfall laga um Lífeyrissjóð hjúkrunarfræðinga og niðurlagningu Eftirlaunasjóðs starfsmanna  Útvegsbanka Íslands
+* [2017  nr. 35  14. júní](2017035.md) Lög um brottfall laga um Lífeyrissjóð hjúkrunarfræðinga og niðurlagningu Eftirlaunasjóðs starfsmanna Útvegsbanka Íslands
 * [2017  nr. 28  26. maí](2017028.md) Lög um farþegaflutninga og farmflutninga á landi
 * [2017  nr. 24  19. maí](2017024.md) Lög um evrópskt eftirlitskerfi á fjármálamarkaði
-* [2017  nr. 15  7. apríl](2017015.md) Forsetaúrskurður um skiptingu stjórnarmálefna milli ráðuneyta í Stjórnarráði Íslands
-* [2017  nr. 14  7. apríl](2017014.md) Forsetaúrskurður um skiptingu Stjórnarráðs Íslands í ráðuneyti
-* [2016  nr. 130  30. desember](2016130.md) Lög um kjararáð
 * [2016  nr. 120  20. október](2016120.md) Lög um opinber innkaup
 * [2016  nr. 118  20. október](2016118.md) Lög um fasteignalán til neytenda
 * [2016  nr. 111  19. október](2016111.md) Lög um stuðning til kaupa á fyrstu íbúð
@@ -20,7 +80,6 @@
 * [2016  nr. 95  13. september](2016095.md) Lög um timbur og timburvöru
 * [2016  nr. 80  16. júní](2016080.md) Lög um útlendinga
 * [2016  nr. 75  16. júní](2016075.md) Lög um húsnæðisbætur
-* [2016  nr. 56  10. júní](2016056.md) Lög um heimild til útboðs vegna nýrrar Vestmannaeyjaferju
 * [2016  nr. 52  10. júní](2016052.md) Lög um almennar íbúðir
 * [2016  nr. 51  7. júní](2016051.md) Lög um handtöku og afhendingu manna til og frá Íslandi vegna refsiverðra verknaða á grundvelli handtökuskipunar
 * [2016  nr. 50  7. júní](2016050.md) Lög um dómstóla
@@ -50,7 +109,6 @@
 * [2015  nr. 6  4. febrúar](2015006.md) Lög um stofnun hlutafélags um þátttöku íslenska ríkisins í kolvetnisstarfsemi
 * [2014  nr. 134  22. desember](2014134.md) Lög um heimild til endurupptöku vegna látinna dómþola í máli Hæstaréttar nr. 214/1978
 * [2014  nr. 130  22. desember](2014130.md) Lög um vernd afurðarheita sem vísa til uppruna, landsvæðis eða hefðbundinnar sérstöðu
-* [2014  nr. 117  30. nóvember](2014117.md) Forsetaúrskurður um sendiráð, fastanefndir hjá alþjóðastofnunum og sendiræðisskrifstofur
 * [2014  nr. 115  1. desember](2014115.md) Lög um Rauða krossinn á Íslandi og merki Rauða krossins, Rauða hálfmánans og Rauða kristalsins
 * [2014  nr. 114  26. nóvember](2014114.md) Lög um byggingarvörur
 * [2014  nr. 105  30. október](2014105.md) Lög um frjálsan atvinnu- og búseturétt launafólks innan Evrópska efnahagssvæðisins
@@ -85,13 +143,11 @@
 * [2012  nr. 119  30. nóvember](2012119.md) Lög um Samgöngustofu, stjórnsýslustofnun samgöngumála
 * [2012  nr. 116  23. nóvember](2012116.md) Lög um málefni innflytjenda
 * [2012  nr. 80  29. júní](2012080.md) Lög um menningarminjar
-* [2012  nr. 74  26. júní](2012074.md) Lög um veiðigjald
 * [2012  nr. 71  26. júní](2012071.md) Lög um vinnustaðanámssjóð
 * [2012  nr. 70  29. júní](2012070.md) Lög um loftslagsmál
 * [2012  nr. 66  25. júní](2012066.md) Lög um heiðurslaun listamanna
 * [2012  nr. 64  25. júní](2012064.md) Myndlistarlög
 * [2012  nr. 60  25. júní](2012060.md) Lög um atvinnutengda starfsendurhæfingu og starfsemi starfsendurhæfingarsjóða
-* [2012  nr. 57  25. júní](2012057.md) Lög um réttarstöðu einstaklinga með kynáttunarvanda
 * [2012  nr. 55  22. júní](2012055.md) Lög um umhverfisábyrgð
 * [2012  nr. 53  20. júní](2012053.md) Lög um frávik frá lögum um skatta og gjöld vegna styrkja úr sjóði er fjármagnar aðstoð við umsóknarríki Evrópusambandsins
 * [2012  nr. 48  18. júní](2012048.md) Lög um heimild til handa ráðherra f.h. ríkissjóðs til að fjármagna gerð jarðganga undir Vaðlaheiði
@@ -134,16 +190,14 @@
 * [2010  nr. 100  2. júlí](2010100.md) Lög um umboðsmann skuldara
 * [2010  nr. 97  28. júní](2010097.md) Lög um stofnun hlutafélaga um vegaframkvæmdir
 * [2010  nr. 91  25. júní](2010091.md) Lög um framkvæmd þjóðaratkvæðagreiðslna
-* [2010  nr. 77  25. júní](2010077.md) Lög um sameiningu Þjóðskrár og Fasteignaskrár Íslands
-* [2010  nr. 67  22. júní](2010067.md) Lög um heimild fjármálafyrirtækis til að veita veðréttindi í tengslum við uppgjör vegna ráðstöfunar Fjármálaeftirlitsins á eignum og  skuldum vegna sérstakra aðstæðna á fjármálamarkaði
+* [2010  nr. 67  22. júní](2010067.md) Lög um heimild fjármálafyrirtækis til að veita veðréttindi í tengslum við uppgjör vegna ráðstöfunar Fjármálaeftirlitsins á eignum og skuldum vegna sérstakra aðstæðna á fjármálamarkaði
 * [2010  nr. 64  22. júní](2010064.md) Lög um byggingu nýs Landspítala við Hringbraut í Reykjavík
 * [2010  nr. 58  14. júní](2010058.md) Lög um eftirlit með þjónustu og hlutum sem geta haft hernaðarlega þýðingu
-* [2010  nr. 57  14. júní](2010057.md) Lög um heimild til samninga um gagnaver í Reykjanesbæ
 * [2010  nr. 56  10. júní](2010056.md) Lög um vátryggingastarfsemi
-* [2010  nr. 47  28. maí](2010047.md) Lög um sanngirnisbætur fyrir misgjörðir á stofnunum eða heimilum  sem falla undir lög nr. 26/2007
+* [2010  nr. 47  28. maí](2010047.md) Lög um sanngirnisbætur fyrir misgjörðir á stofnunum eða heimilum sem falla undir lög nr. 26/2007
 * [2010  nr. 42  18. maí](2010042.md) Lög um vinnustaðaskírteini og eftirlit á vinnustöðum
 * [2010  nr. 40  18. maí](2010040.md) Landflutningalög
-* [2010  nr. 38  6. maí](2010038.md) Lög um Íslandsstofu
+* [2010  nr. 38  6. maí](2010038.md) Lög um Íslandsstofu, sjálfseignarstofnun
 * [2010  nr. 35  5. maí](2010035.md) Lög um lögskráningu sjómanna
 * [2010  nr. 27  31. mars](2010027.md) Lög um framhaldsfræðslu
 * [2010  nr. 26  31. mars](2010026.md) Lög um viðurkenningu á faglegri menntun og hæfi til starfa hér á landi
@@ -152,7 +206,7 @@
 * [2009  nr. 153  29. desember](2009153.md) Lög um samruna opinberu hlutafélaganna Flugstoða og Keflavíkurflugvallar
 * [2009  nr. 152  29. desember](2009152.md) Lög um stuðning við nýsköpunarfyrirtæki
 * [2009  nr. 151  29. desember](2009151.md) Lög um tímabundna breytingu á heimildarlögum um stóriðju vegna skattgreiðslna á árunum 2010, 2011 og 2012 o.fl.
-* [2009  nr. 138  29. desember](2009138.md) Lög um heimild til að staðfesta breytingar á eignarhlut ríkisins í  Íslandsbanka hf., Arion banka hf. og NBI hf.
+* [2009  nr. 138  29. desember](2009138.md) Lög um heimild til að staðfesta breytingar á eignarhlut ríkisins í Íslandsbanka hf., Arion banka hf. og NBI hf.
 * [2009  nr. 129  23. desember](2009129.md) Lög um umhverfis- og auðlindaskatta
 * [2009  nr. 88  18. ágúst](2009088.md) Lög um Bankasýslu ríkisins
 * [2009  nr. 86  4. ágúst](2009086.md) Lög um aðild starfsmanna við samruna félaga með takmarkaðri ábyrgð yfir landamæri
@@ -170,7 +224,6 @@
 * [2009  nr. 9  9. mars](2009009.md) Lög um uppbyggingu og rekstur fráveitna
 * [2008  nr. 172  29. desember](2008172.md) Lög um heimild til fjárhagslegrar fyrirgreiðslu úr ríkissjóði í tengslum við málshöfðun fyrir erlendum dómstólum vegna íþyngjandi stjórnvaldsákvarðana erlendra stjórnvalda á tímabilinu 1. október til 1. desember 2008
 * [2008  nr. 160  23. desember](2008160.md) Lög um þjónustu- og þekkingarmiðstöð fyrir blinda, sjónskerta og einstaklinga með samþætta sjón- og heyrnarskerðingu
-* [2008  nr. 152  23. desember](2008152.md) Lög um niðurfellingu laga um kísilgúrverksmiðju við Mývatn, nr. 80/1966, með síðari breytingum, og um ráðstöfun eigna Kísilgúrsjóðs
 * [2008  nr. 142  17. desember](2008142.md) Lög um rannsókn á aðdraganda og orsökum falls íslensku bankanna 2008 og tengdra atburða
 * [2008  nr. 125  7. október](2008125.md) Lög um heimild til fjárveitingar úr ríkissjóði vegna sérstakra aðstæðna á fjármálamarkaði o.fl.
 * [2008  nr. 121  17. september](2008121.md) Lög um alþjóðlega þróunarsamvinnu Íslands
@@ -181,10 +234,8 @@
 * [2008  nr. 91  12. júní](2008091.md) Lög um grunnskóla
 * [2008  nr. 90  12. júní](2008090.md) Lög um leikskóla
 * [2008  nr. 88  12. júní](2008088.md) Lög um meðferð sakamála
-* [2008  nr. 87  12. júní](2008087.md) Lög um menntun og ráðningu kennara og skólastjórnenda við leikskóla, grunnskóla og framhaldsskóla
 * [2008  nr. 85  12. júní](2008085.md) Lög um opinbera háskóla
 * [2008  nr. 82  12. júní](2008082.md) Lög um almannavarnir
-* [2008  nr. 79  12. júní](2008079.md) Lög um endurskoðendur
 * [2008  nr. 76  11. júní](2008076.md) Lög um stofnun opinbers hlutafélags um rekstur Keflavíkurflugvallar o.fl.
 * [2008  nr. 75  11. júní](2008075.md) Lög um frístundabyggð og leigu lóða undir frístundahús
 * [2008  nr. 72  11. júní](2008072.md) Lög um Fiskræktarsjóð
@@ -213,13 +264,12 @@
 * [2007  nr. 78  30. mars](2007078.md) Lög um starfstengda eftirlaunasjóði
 * [2007  nr. 75  29. mars](2007075.md) Lög um opinberan stuðning við tæknirannsóknir, nýsköpun og atvinnuþróun
 * [2007  nr. 73  28. mars](2007073.md) Lög um íslensku friðargæsluna og þátttöku hennar í alþjóðlegri friðargæslu
-* [2007  nr. 72  28. mars](2007072.md) Lög um réttarstöðu liðsafla aðildarríkja Atlantshafsbandalagsins og  Samstarfs í þágu friðar o.fl.
+* [2007  nr. 72  28. mars](2007072.md) Lög um réttarstöðu liðsafla aðildarríkja Atlantshafsbandalagsins og Samstarfs í þágu friðar o.fl.
 * [2007  nr. 71  28. mars](2007071.md) Lög um námsgögn
 * [2007  nr. 70  28. mars](2007070.md) Æskulýðslög
 * [2007  nr. 60  28. mars](2007060.md) Lög um Vatnajökulsþjóðgarð
-* [2007  nr. 56  27. mars](2007056.md) Lög um samvinnu stjórnvalda á Evrópska efnahagssvæðinu um neytendavernd
 * [2007  nr. 50  27. mars](2007050.md) Lög um sameignarfélög
-* [2007  nr. 45  27. mars](2007045.md) Lög um réttindi og skyldur erlendra fyrirtækja sem senda starfsmenn tímabundið til Íslands og starfskjör starfsmanna þeirra
+* [2007  nr. 45  27. mars](2007045.md) Lög um útsenda starfsmenn og skyldur erlendra þjónustuveitenda
 * [2007  nr. 44  27. mars](2007044.md) Lög um aðild starfsmanna að evrópskum samvinnufélögum
 * [2007  nr. 42  27. mars](2007042.md) Lög um Heyrnar- og talmeinastöð
 * [2007  nr. 41  27. mars](2007041.md) Lög um landlækni og lýðheilsu
@@ -240,12 +290,10 @@
 * [2006  nr. 105  14. júní](2006105.md) Lög um umhverfismat áætlana
 * [2006  nr. 103  14. júní](2006103.md) Lög um landmælingar og grunnkortagerð
 * [2006  nr. 102  13. júní](2006102.md) Lög um stofnun hlutafélags um flugleiðsöguþjónustu og flugvallarekstur Flugmálastjórnar Íslands
-* [2006  nr. 95  13. júní](2006095.md) Lög um skógrækt á lögbýlum
 * [2006  nr. 92  14. júní](2006092.md) Lög um evrópsk samvinnufélög
 * [2006  nr. 91  14. júní](2006091.md) Lög um mælingar, mæligrunna og vigtarmenn
 * [2006  nr. 76  14. júní](2006076.md) Lög um starfsemi innri markaðarins í tengslum við frjálsa vöruflutninga innan Evrópska efnahagssvæðisins
 * [2006  nr. 68  14. júní](2006068.md) Lög um stofnun Matvælarannsókna hf.
-* [2006  nr. 64  14. júní](2006064.md) Lög um aðgerðir gegn peningaþvætti og fjármögnun hryðjuverka
 * [2006  nr. 63  13. júní](2006063.md) Lög um háskóla
 * [2006  nr. 62  13. júní](2006062.md) Lög um eftirlit með aðgangi barna að kvikmyndum og tölvuleikjum
 * [2006  nr. 61  14. júní](2006061.md) Lög um lax- og silungsveiði
@@ -259,7 +307,6 @@
 * [2006  nr. 40  12. júní](2006040.md) Lög um Stofnun Árna Magnússonar í íslenskum fræðum
 * [2006  nr. 25  12. apríl](2006025.md) Lög um stofnun hlutafélags um Rafmagnsveitur ríkisins
 * [2006  nr. 24  12. apríl](2006024.md) Lög um faggildingu o.fl.
-* [2006  nr. 23  12. apríl](2006023.md) Lög um upplýsingarétt um umhverfismál
 * [2006  nr. 22  12. apríl](2006022.md) Lög um greiðslur til foreldra langveikra eða alvarlega fatlaðra barna
 * [2006  nr. 3  17. janúar](2006003.md) Lög um ársreikninga
 * [2005  nr. 145  31. desember](2005145.md) Forsetabréf um hina íslensku fálkaorðu
@@ -269,9 +316,7 @@
 * [2005  nr. 132  20. desember](2005132.md) Lög um fjarskiptasjóð
 * [2005  nr. 88  18. maí](2005088.md) Tollalög
 * [2005  nr. 85  24. maí](2005085.md) Lög um verndun Þingvallavatns og vatnasviðs þess
-* [2005  nr. 80  24. maí](2005080.md) Lög um Matvælastofnun
 * [2005  nr. 79  24. maí](2005079.md) Lög um uppboðsmarkaði sjávarafla
-* [2005  nr. 73  24. maí](2005073.md) Lög um skipan ferðamála
 * [2005  nr. 62  20. maí](2005062.md) Lög um Neytendastofu
 * [2005  nr. 57  20. maí](2005057.md) Lög um eftirlit með viðskiptaháttum og markaðssetningu
 * [2005  nr. 52  18. maí](2005052.md) Lög um gæðamat á æðardúni
@@ -281,7 +326,6 @@
 * [2005  nr. 38  13. maí](2005038.md) Lög um happdrætti
 * [2005  nr. 34  11. maí](2005034.md) Lög um græðara
 * [2005  nr. 33  11. maí](2005033.md) Lög um fjarsölu á fjármálaþjónustu
-* [2005  nr. 32  11. maí](2005032.md) Lög um miðlun vátrygginga
 * [2005  nr. 25  22. mars](2005025.md) Lög um sölu kristfjárjarðarinnar Utanverðuness í Sveitarfélaginu Skagafirði
 * [2005  nr. 15  10. mars](2005015.md) Lög um Stjórnartíðindi og Lögbirtingablað
 * [2005  nr. 13  16. mars](2005013.md) Lög um stofnun einkahlutafélags um Orkuveitu Húsavíkur
@@ -336,7 +380,6 @@
 * [2002  nr. 146  19. desember](2002146.md) Lög um skipamælingar
 * [2002  nr. 129  18. desember](2002129.md) Lög um auknar ábyrgðir vegna lánaflokks í Norræna fjárfestingarbankanum til umhverfismála í grannhéruðum Norðurlandanna
 * [2002  nr. 97  10. maí](2002097.md) Lög um atvinnuréttindi útlendinga
-* [2002  nr. 91  15. maí](2002091.md) Lög um varnir gegn landbroti
 * [2002  nr. 90  15. maí](2002090.md) Lög um Umhverfisstofnun
 * [2002  nr. 87  15. maí](2002087.md) Lög um heimild til handa ráðherra, f.h. ríkissjóðs, til að ábyrgjast skuldabréf vegna fjármögnunar nýrrar starfsemi Íslenskrar erfðagreiningar ehf.
 * [2002  nr. 80  10. maí](2002080.md) Barnaverndarlög
@@ -349,7 +392,6 @@
 * [2002  nr. 35  16. apríl](2002035.md) Lög um brottfall laga um kirkjubyggingasjóð, nr. 21 18. maí 1981
 * [2002  nr. 30  16. apríl](2002030.md) Lög um rafræn viðskipti og aðra rafræna þjónustu
 * [2002  nr. 20  20. mars](2002020.md) Lög um skylduskil til safna
-* [2002  nr. 19  18. mars](2002019.md) Lög um póstþjónustu
 * [2002  nr. 9  18. febrúar](2002009.md) Lög um áhugamannahnefaleika
 * [2002  nr. 6  31. janúar](2002006.md) Lög um tóbaksvarnir
 * [2001  nr. 141  21. desember](2001141.md) Lög um lögbann og dómsmál til að vernda heildarhagsmuni neytenda
@@ -365,14 +407,11 @@
 * [2001  nr. 43  19. maí](2001043.md) Lög um framkvæmd Rómarsamþykktar um Alþjóðlega sakamáladómstólinn
 * [2001  nr. 40  30. maí](2001040.md) Lög um stofnun hlutafélags um Orkubú Vestfjarða
 * [2001  nr. 38  26. maí](2001038.md) Lög um vexti og verðtryggingu
-* [2001  nr. 36  22. maí](2001036.md) Lög um Seðlabanka Íslands
 * [2001  nr. 34  16. maí](2001034.md) Lög um kjaramál fiskimanna og fleira
-* [2001  nr. 28  7. maí](2001028.md) Lög um rafrænar undirskriftir
 * [2001  nr. 26  7. maí](2001026.md) Lög um framkvæmd samnings um bann við notkun, birgðasöfnun, framleiðslu og flutningi jarðsprengna gegn liðsafla og um eyðingu þeirra
 * [2001  nr. 25  7. maí](2001025.md) Lög um framkvæmd samnings um allsherjarbann við tilraunum með kjarnavopn
 * [2001  nr. 16  30. apríl](2001016.md) Lög um lækningatæki
 * [2001  nr. 13  13. mars](2001013.md) Lög um leit, rannsóknir og vinnslu kolvetnis
-* [2001  nr. 10  19. mars](2001010.md) Lög um stofnun hlutafélags um Hitaveitu Suðurnesja
 * [2001  nr. 6  6. febrúar](2001006.md) Lög um skráningu og mat fasteigna
 * [2000  nr. 160  20. desember](2000160.md) Lög um jöfnunargjald vegna alþjónustu árið 2001
 * [2000  nr. 148  20. desember](2000148.md) Lög um dómtúlka og skjalaþýðendur
@@ -382,7 +421,6 @@
 * [2000  nr. 98  22. maí](2000098.md) Lög um stofnun hlutafélags um Samábyrgð Íslands á fiskiskipum
 * [2000  nr. 95  22. maí](2000095.md) Lög um fæðingar- og foreldraorlof
 * [2000  nr. 85  23. maí](2000085.md) Lög um framkvæmd samnings um alþjóðaverslun með tegundir villtra dýra og plantna sem eru í útrýmingarhættu
-* [2000  nr. 77  23. maí](2000077.md) Lög um persónuvernd og meðferð persónuupplýsinga
 * [2000  nr. 75  23. maí](2000075.md) Lög um brunavarnir
 * [2000  nr. 72  20. maí](2000072.md) Lög um jöfnunargjald vegna alþjónustu árið 2000
 * [2000  nr. 63  19. maí](2000063.md) Lög um hópuppsagnir
@@ -408,7 +446,6 @@
 * [1999  nr. 43  22. mars](1999043.md) Lög um tímabundnar endurgreiðslur vegna kvikmyndagerðar á Íslandi
 * [1999  nr. 33  19. mars](1999033.md) Lög um sjálfseignarstofnanir sem stunda atvinnurekstur
 * [1999  nr. 27  18. mars](1999027.md) Lög um opinberar eftirlitsreglur
-* [1999  nr. 12  11. mars](1999012.md) Lög um Lífeyrissjóð bænda
 * [1998  nr. 164  31. desember](1998164.md) Lög um heimild fyrir ríkisstjórnina til að auka hlutafé Íslands í Norræna fjárfestingarbankanum og hækka útlánaramma vegna norrænna fjárfestingarlána til verkefna utan Norðurlanda
 * [1998  nr. 155  28. desember](1998155.md) Lög um Söfnunarsjóð lífeyrisréttinda
 * [1998  nr. 153  28. desember](1998153.md) Lög um byggingarsamvinnufélög
@@ -429,7 +466,6 @@
 * [1998  nr. 60  10. júní](1998060.md) Lög um loftferðir
 * [1998  nr. 58  10. júní](1998058.md) Lög um þjóðlendur og ákvörðun marka eignarlanda, þjóðlendna og afrétta
 * [1998  nr. 57  10. júní](1998057.md) Lög um rannsóknir og nýtingu á auðlindum í jörðu
-* [1998  nr. 55  10. júní](1998055.md) Lög um sjávarafurðir
 * [1998  nr. 44  3. júní](1998044.md) Lög um húsnæðismál
 * [1998  nr. 43  29. maí](1998043.md) Lög um stofnun hlutafélags um síldarútvegsnefnd og stofnun sjóða í þágu síldarútvegsins
 * [1998  nr. 39  27. apríl](1998039.md) Lög um áframhaldandi gildi samninga með tilkomu evrunnar
@@ -438,15 +474,12 @@
 * [1998  nr. 22  8. apríl](1998022.md) Lög um veiðar og vinnslu erlendra skipa í fiskveiðilandhelgi Íslands
 * [1998  nr. 17  30. mars](1998017.md) Lög um sameiningu Kjalarneshrepps og Reykjavíkur
 * [1998  nr. 16  25. mars](1998016.md) Vopnalög
-* [1998  nr. 15  25. mars](1998015.md) Lög um dómstóla
 * [1998  nr. 13  27. mars](1998013.md) Lög um Verðlagsstofu skiptaverðs og úrskurðarnefnd sjómanna og útvegsmanna
 * [1998  nr. 10  27. mars](1998010.md) Lög um kjaramál fiskimanna
 * [1998  nr. 7  12. mars](1998007.md) Lög um hollustuhætti og mengunarvarnir
 * [1998  nr. 5  6. mars](1998005.md) Lög um kosningar til sveitarstjórna
-* [1997  nr. 131  23. desember](1997131.md) Lög um rafræna eignarskráningu verðbréfa
 * [1997  nr. 129  23. desember](1997129.md) Lög um skyldutryggingu lífeyrisréttinda og starfsemi lífeyrissjóða
 * [1997  nr. 121  22. desember](1997121.md) Lög um ríkisábyrgðir
-* [1997  nr. 96  27. maí](1997096.md) Lög um slátrun og sláturafurðir
 * [1997  nr. 85  27. maí](1997085.md) Lög um umboðsmann Alþingis
 * [1997  nr. 81  26. maí](1997081.md) Lög um Stofnun Vilhjálms Stefánssonar og samvinnunefnd um málefni norðurslóða
 * [1997  nr. 79  26. maí](1997079.md) Lög um veiðar í fiskveiðilandhelgi Íslands
@@ -456,12 +489,11 @@
 * [1997  nr. 71  28. maí](1997071.md) Lögræðislög
 * [1997  nr. 62  27. maí](1997062.md) Lög um heimild til samninga um álbræðslu á Grundartanga
 * [1997  nr. 61  26. maí](1997061.md) Lög um Nýsköpunarsjóð atvinnulífsins
-* [1997  nr. 60  26. maí](1997060.md) Lög um stofnun Fjárfestingarbanka atvinnulífsins hf.
 * [1997  nr. 58  22. maí](1997058.md) Lög um öryggisþjónustu
 * [1997  nr. 50  22. maí](1997050.md) Lög um stofnun hlutafélaga um Landsbanka Íslands og Búnaðarbanka Íslands
 * [1997  nr. 49  23. maí](1997049.md) Lög um varnir gegn snjóflóðum og skriðuföllum
 * [1997  nr. 45  22. maí](1997045.md) Lög um vörumerki
-* [1997  nr. 32  14. maí](1997032.md) Lög um helgidagafrið
+* [1997  nr. 32  14. maí](1997032.md) Lög um frið vegna helgihalds
 * [1997  nr. 28  5. maí](1997028.md) Lög um sjóvarnir
 * [1997  nr. 27  5. maí](1997027.md) Lög um uppgjör á vangoldnum söluskatti, launaskatti, tekjuskatti og eignarskatti
 * [1997  nr. 19  17. apríl](1997019.md) Sóttvarnalög
@@ -479,7 +511,6 @@
 * [1996  nr. 57  3. júní](1996057.md) Lög um umgengni um nytjastofna sjávar
 * [1996  nr. 55  29. maí](1996055.md) Lög um tæknifrjóvgun og notkun kynfrumna og fósturvísa manna til stofnfrumurannsókna
 * [1996  nr. 45  17. maí](1996045.md) Lög um mannanöfn
-* [1996  nr. 31  2. apríl](1996031.md) Lög um köfun
 * [1996  nr. 19  25. október](1996019.md) Samningur gegn pyndingum og annarri grimmilegri, ómannlegri eða vanvirðandi meðferð eða refsingu
 * [1996  nr. 18  2. apríl](1996018.md) Lög um erfðabreyttar lífverur
 * [1996  nr. 14  11. mars](1996014.md) Lög um flutninga á skipgengum vatnaleiðum vegna aðildar Íslands að Evrópska efnahagssvæðinu
@@ -494,7 +525,6 @@
 * [1995  nr. 54  8. mars](1995054.md) Lög um vernd Breiðafjarðar
 * [1995  nr. 53  8. mars](1995053.md) Lög um stuðning við framkvæmdir sveitarfélaga í fráveitumálum
 * [1995  nr. 51  7. mars](1995051.md) Lög um greiðslur Atvinnuleysistryggingasjóðs vegna fiskvinnslufólks
-* [1995  nr. 29  6. mars](1995029.md) Lög um endurgreiðslu oftekinna skatta og gjalda
 * [1995  nr. 27  3. mars](1995027.md) Lög um átaksverkefni um framleiðslu og markaðssetningu vistvænna og lífrænna afurða
 * [1995  nr. 12  2. mars](1995012.md) Lög um vísitölu neysluverðs
 * [1995  nr. 4  30. janúar](1995004.md) Lög um tekjustofna sveitarfélaga
@@ -515,7 +545,6 @@
 * [1994  nr. 89  24. maí](1994089.md) Lög um stofnun hlutafélags um Áburðarverksmiðju ríkisins
 * [1994  nr. 88  24. maí](1994088.md) Lög um viðauka við lög nr. 39 15. maí 1990, um Verðjöfnunarsjóð sjávarútvegsins
 * [1994  nr. 83  19. maí](1994083.md) Lög um umboðsmann barna
-* [1994  nr. 80  19. maí](1994080.md) Lög um alferðir
 * [1994  nr. 75  19. maí](1994075.md) Lög um stofnun hlutafélags um Lyfjaverslun ríkisins og heimild til sölu hlutabréfa í því félagi
 * [1994  nr. 73  19. maí](1994073.md) Lög um söfnunarkassa
 * [1994  nr. 72  11. maí](1994072.md) Lög um merkingar og upplýsingaskyldu varðandi vörur sem tengjast orkunotkun
@@ -558,8 +587,7 @@
 * [1992  nr. 88  17. nóvember](1992088.md) Lög um innflutning
 * [1992  nr. 87  17. nóvember](1992087.md) Lög um gjaldeyrismál
 * [1992  nr. 60  1. júní](1992060.md) Lög um Náttúrufræðistofnun Íslands og náttúrustofur
-* [1992  nr. 59  2. júní](1992059.md) Lög um málefni fatlaðs fólks
-* [1992  nr. 55  2. júní](1992055.md) Lög um Viðlagatryggingu Íslands
+* [1992  nr. 55  2. júní](1992055.md) Lög um Náttúruhamfaratryggingu Íslands
 * [1992  nr. 54  16. maí](1992054.md) Lög um vinnslu afla um borð í skipum
 * [1992  nr. 37  27. maí](1992037.md) Lög um sérstakt gjald vegna ólögmæts sjávarafla
 * [1992  nr. 36  27. maí](1992036.md) Lög um Fiskistofu
@@ -605,7 +633,6 @@
 * [1990  nr. 43  16. maí](1990043.md) Lög um lánasýslu ríkisins
 * [1990  nr. 39  15. maí](1990039.md) Lög um Verðjöfnunarsjóð sjávarútvegsins
 * [1990  nr. 31  23. apríl](1990031.md) Lög um kyrrsetningu, lögbann o.fl.
-* [1990  nr. 21  5. maí](1990021.md) Lög um lögheimili
 * [1990  nr. 15  27. mars](1990015.md) Lög vegna aðildar Íslands að Evrópusamningi um varnir gegn pyndingum og ómannlegri eða vanvirðandi meðferð eða refsingu
 * [1990  nr. 10  26. febrúar](1990010.md) Lög um laun forseta Íslands
 * [1989  nr. 112  22. desember](1989112.md) Lög um skuldbreytingar vegna loðdýraræktar
@@ -632,7 +659,6 @@
 * [1988  nr. 19  5. maí](1988019.md) Lög um sjóði og stofnanir sem starfa samkvæmt staðfestri skipulagsskrá
 * [1987  nr. 93  21. desember](1987093.md) Lög um heimild fyrir ríkisstjórnina til að auka hlutafé Íslands í Norræna fjárfestingarbankanum
 * [1987  nr. 91  29. desember](1987091.md) Lög um sóknargjöld o.fl.
-* [1987  nr. 50  30. mars](1987050.md) Umferðarlög
 * [1987  nr. 46  30. mars](1987046.md) Lög um gildistöku laga um staðgreiðslu opinberra gjalda
 * [1987  nr. 45  30. mars](1987045.md) Lög um staðgreiðslu opinberra gjalda
 * [1987  nr. 42  30. mars](1987042.md) Lög um vísitölu byggingarkostnaðar
@@ -664,14 +690,12 @@
 * [1985  nr. 22  20. maí](1985022.301.md) Lög um breytingu á mörkum Garðabæjar og Kópavogs
 * [1985  nr. 14  10. maí](1985014.md) Lög um framkvæmd alþjóðasamnings um gáma
 * [1985  nr. 5  10. október](1985005.c.md) Samningur um afnám allrar mismununar gagnvart konum
-* [1984  nr. 125  31. desember](1984125.md) Lög um heimild fyrir ríkisstjórnina til að selja Landssmiðjuna
 * [1984  nr. 104  30. nóvember](1984104.md) Lög um lagagildi viðaukasamnings milli ríkisstjórnar Íslands og Swiss Aluminium Ltd., um álbræðslu við Straumsvík
 * [1984  nr. 97  28. maí](1984097.md) Lög um bókasafnsfræðinga
 * [1984  nr. 71  30. maí](1984071.md) Lög um ráðstafanir í sjávarútvegsmálum
 * [1984  nr. 49  28. maí](1984049.md) Lög um lántöku Áburðarverksmiðju ríkisins
 * [1984  nr. 45  15. maí](1984045.md) Lög um lántöku o.fl. vegna byggingar flugstöðvar á Keflavíkurflugvelli
 * [1984  nr. 30  15. maí](1984030.md) Lög um heimild fyrir ráðherra f.h. ríkissjóðs til að ábyrgjast lán fyrir Arnarflug hf.
-* [1984  nr. 26  15. maí](1984026.md) Lög um heimild fyrir ríkisstjórnina til að selja lagmetisiðju ríkisins í Siglufirði
 * [1984  nr. 20  24. apríl](1984020.md) Lög um heimild til niðurfellingar eða endurgreiðslu stimpilgjalda af íbúðalánum
 * [1984  nr. 13  17. apríl](1984013.md) Lög um framsal sakamanna og aðra aðstoð í sakamálum
 * [1983  nr. 81  28. desember](1983081.md) Lög um heimild til að fresta greiðslum vegna verðtryggðra íbúðalána
@@ -682,15 +706,11 @@
 * [1983  nr. 34  23. mars](1983034.md) Lög um kaupstaðarréttindi til handa Ólafsvíkurhreppi
 * [1983  nr. 7  8. mars](1983007.md) Lög um þjóðsöng Íslendinga
 * [1982  nr. 77  19. maí](1982077.md) Lög um ábyrgð vegna norrænna fjárfestingalána til verkefna
-* [1982  nr. 70  17. maí](1982070.md) Lög um kísilmálmverksmiðju á Reyðarfirði
 * [1982  nr. 65  19. maí](1982065.md) Lög um skattskyldu lánastofnana
-* [1982  nr. 53  11. maí](1982053.md) Lög um aukningu hlutafjár í Kísiliðjunni hf.
 * [1982  nr. 36  7. maí](1982036.md) Lög um Sinfóníuhljómsveit Íslands
 * [1982  nr. 32  4. maí](1982032.md) Lög um heimild til hækkunar á hlutafé Íslands í Alþjóðabankanum
 * [1982  nr. 12  11. mars](1982012.md) Lög um samstarfsnefnd Alþingis og þjóðkirkjunnar
 * [1981  nr. 68  29. maí](1981068.md) Lög um aðild Íslands að samningi um framtíðarsamvinnu ríkja varðandi fiskveiðar á Norðaustur-Atlantshafi
-* [1981  nr. 62  4. júní](1981062.md) Lög um sjóefnavinnslu á Reykjanesi
-* [1981  nr. 61  4. júní](1981061.md) Lög um steinullarverksmiðju
 * [1981  nr. 51  29. maí](1981051.md) Lög um varnir gegn sjúkdómum og meindýrum á plöntum
 * [1981  nr. 44  26. maí](1981044.md) Lög um horfna menn
 * [1981  nr. 32  26. maí](1981032.md) Lög um lagningu sjálfvirks síma
@@ -704,7 +724,6 @@
 * [1980  nr. 53  28. maí](1980053.md) Lög um jöfnun og lækkun hitunarkostnaðar
 * [1980  nr. 46  28. maí](1980046.md) Lög um aðbúnað, hollustuhætti og öryggi á vinnustöðum
 * [1980  nr. 42  23. maí](1980042.md) Lög um heimild til viðbótarlántöku og ábyrgðarheimild vegna framkvæmda á sviði orkumála 1979 o.fl.
-* [1979  nr. 57  31. maí](1979057.md) Lög um heimild fyrir ríkisstjórnina til að taka eignarnámi hluta jarðarinnar Deildartungu í Reykholtsdalshreppi ásamt jarðhitaréttindum
 * [1979  nr. 48  30. maí](1979048.md) Lög um framkvæmd samnings um framtíðarsamvinnu ríkja varðandi fiskveiðar á Norðvestur-Atlantshafi
 * [1979  nr. 41  1. júní](1979041.md) Lög um landhelgi, aðlægt belti, efnahagslögsögu og landgrunn
 * [1979  nr. 38  29. maí](1979038.md) Lög um heimild til hækkunar framlags Íslands til Alþjóðagjaldeyrissjóðsins
@@ -717,7 +736,7 @@
 * [1978  nr. 105  28. desember](1978105.md) Lög um greiðslu verðjöfnunargjalds af sauðfjárafurðum
 * [1978  nr. 62  20. maí](1978062.md) Lög um bann við fjárhagslegum stuðningi erlendra aðila við íslenska stjórnmálaflokka og blaðaútgáfu erlendra sendiráða á Íslandi
 * [1978  nr. 44  10. maí](1978044.md) Lög um heimild fyrir ríkisstjórnina til þess að fullgilda fyrir Íslands hönd samning milli Lýðveldisins Íslands og Sambandslýðveldisins Þýskalands um gagnkvæma aðstoð í tollamálum
-* [1978  nr. 42  18. maí](1978042.md) Iðnaðarlög
+* [1978  nr. 42  18. maí](1978042.md) Lög um handiðnað
 * [1978  nr. 39  10. maí](1978039.md) Þinglýsingalög
 * [1978  nr. 30  12. maí](1978030.md) Lög um breytingu á mörkum lögsagnarumdæma Reykjavíkur og Seltjarnarneskaupstaðar
 * [1978  nr. 9  5. maí](1978009.md) Lög um geymslufé
@@ -726,7 +745,6 @@
 * [1978  nr. 3  17. febrúar](1978003.201.md) Lög um ráðstafanir í efnahagsmálum
 * [1977  nr. 77  31. desember](1977077.md) Lög um skyldusparnað og ráðstafanir í ríkisfjármálum
 * [1977  nr. 34  12. maí](1977034.md) Lög um kjarasamninga starfsmanna banka í eigu ríkisins
-* [1977  nr. 26  11. maí](1977026.md) Lög um virkjun Hvítár í Borgarfirði
 * [1977  nr. 20  10. maí](1977020.md) Lög um skattfrelsi jarðstöðvar til fjarskiptasambands við umheiminn
 * [1977  nr. 18  11. maí](1977018.md) Lög um járnblendiverksmiðju í Hvalfirði
 * [1977  nr. 17  7. maí](1977017.md) Lög um heimild til sölu hlutabréfa í Íslensku matvælamiðstöðinni hf. til erlendra aðila
@@ -736,7 +754,6 @@
 * [1977  nr. 4  18. mars](1977004.md) Lög um heimild fyrir ríkisstjórnina til þess að leyfa hf. Olíumöl innflutning á olíupramma
 * [1976  nr. 82  31. maí](1976082.md) Lög um norræna vitnaskyldu
 * [1976  nr. 61  31. maí](1976061.md) Lög um heimild fyrir ríkisstjórnina til aðildar að Iðnþróunarsjóði fyrir Portúgal
-* [1976  nr. 47  25. maí](1976047.md) Lög um undirbúningsfélag saltverksmiðju á Reykjanesi
 * [1976  nr. 42  25. maí](1976042.md) Lög um lagagildi viðaukasamnings milli ríkisstjórnar Íslands og Swiss Aluminium Ltd., um álbræðslu við Straumsvík
 * [1976  nr. 25  6. maí](1976025.md) Lög um aðild Íslands að samningi um stofnun aðstoðarsjóðs á vegum Efnahags- og framfarastofnunar
 * [1976  nr. 20  5. maí](1976020.200.md) Lög um fjáröflun til landhelgisgæslu og fiskverndar, ríkisfjármál og fjármögnun orkuframkvæmda sveitarfélaga
@@ -746,7 +763,7 @@
 * [1975  nr. 83  24. desember](1975083.md) Lög um kaupstaðarréttindi til handa Garðahreppi
 * [1975  nr. 73  5. desember](1975073.md) Lög um viðauka við lög nr. 102 27. desember 1973 um veiðar með botnvörpu, flotvörpu og dragnót í fiskveiðilandhelginni, sbr. lög nr. 14 26. mars 1974 og lög nr. 72 14. október 1975
 * [1975  nr. 38  27. maí](1975038.md) Lög um breyting á mörkum lögsagnarumdæma Reykjavíkur og Kópavogs
-* [1975  nr. 25  22. maí](1975025.md) Lög um ráðgjöf og fræðslu varðandi kynlíf og barneignir og um fóstureyðingar og ófrjósemisaðgerðir
+* [1975  nr. 25  22. maí](1975025.md) Lög um ráðgjöf og fræðslu varðandi kynlíf og barneignir
 * [1975  nr. 12  25. apríl](1975012.md) Lög um samræmda vinnslu sjávarafla og veiðar, sem háðar eru sérstökum leyfum
 * [1975  nr. 11  28. apríl](1975011.201.md) Lög um ráðstafanir í efnahagsmálum og fjármálum til þess að stuðla að jafnvægi í þjóðarbúskapnum og treysta undirstöðu atvinnu og lífskjara
 * [1975  nr. 7  26. febrúar](1975007.md) Lög um heimild fyrir ríkisstjórnina til þess að staðfesta fyrir Íslands hönd samþykkt um alþjóðareglur til að koma í veg fyrir árekstra á sjó, 1972
@@ -818,10 +835,8 @@
 * [1965  nr. 53  18. maí](1965053.md) Lög um heimild til hækkunar kvóta hjá Alþjóðagjaldeyrissjóðnum
 * [1965  nr. 32  26. apríl](1965032.md) Lög um hreppstjóra
 * [1965  nr. 25  21. apríl](1965025.md) Lög um útgáfu og notkun nafnskírteina
-* [1965  nr. 17  24. apríl](1965017.md) Lög um landgræðslu
 * [1964  nr. 45  23. maí](1964045.md) Lög um stækkun lögsagnarumdæmis Akraneskaupstaðar
 * [1964  nr. 38  16. maí](1964038.md) Lög um heimild fyrir ríkisstjórnina til að selja Hafnarfjarðarkaupstað land jarðarinnar Áss í Hafnarfirði
-* [1964  nr. 36  15. maí](1964036.md) Lög um breytingu á lausaskuldum iðnaðarins í föst lán
 * [1963  nr. 69  12. desember](1963069.md) Lög um fullnustu refsidóma, sem kveðnir hafa verið upp í Danmörku, Finnlandi, Noregi eða Svíþjóð, o.fl.
 * [1963  nr. 57  22. apríl](1963057.md) Lög um heimild fyrir ríkisstjórnina til lántöku vegna vatnsveituframkvæmda í Vestmannaeyjum
 * [1963  nr. 32  26. apríl](1963032.md) Lög um heimild handa ríkisstjórninni til þess að afhenda þjóðkirkju Íslands Skálholtsstað
@@ -830,14 +845,12 @@
 * [1963  nr. 3  19. febrúar](1963003.md) Lög um landsdóm
 * [1962  nr. 93  29. desember](1962093.md) Lög um heimild fyrir ríkisstjórnina til að láta öðlast gildi ákvæði í samningi milli Íslands, Danmerkur, Finnlands, Noregs og Svíþjóðar, um innheimtu meðlaga
 * [1962  nr. 68  27. apríl](1962068.md) Lög um heimild til sameiginlegrar innheimtu opinberra gjalda
-* [1962  nr. 54  27. apríl](1962054.md) Lög um þjóðskrá og almannaskráningu
 * [1962  nr. 15  31. mars](1962015.md) Lög um breytingu á lausaskuldum bænda í föst lán
 * [1962  nr. 8  14. mars](1962008.md) Erfðalög
 * [1961  nr. 62  29. mars](1961062.md) Lög um afhendingu Þingeyjar í Skjálfandafljóti
 * [1961  nr. 60  29. mars](1961060.md) Lög um launajöfnuð kvenna og karla
 * [1961  nr. 59  29. mars](1961059.md) Lög um þátttöku Íslands í Hinni alþjóðlegu framfarastofnun
 * [1961  nr. 50  29. mars](1961050.md) Lög um bryta og matreiðslumenn á farskipum og fiskiskipum
-* [1961  nr. 49  29. mars](1961049.md) Lög um verkstjóranámskeið
 * [1961  nr. 16  25. febrúar](1961016.md) Lög um heimild handa ríkisstjórninni til að selja Stokkseyrarhreppi land jarðanna Stokkseyri I–III ásamt með hjáleigum og um eignarnámsheimild á erfðafesturéttindum
 * [1960  nr. 52  11. júní](1960052.md) Lög um heimild fyrir ríkisstjórnina til þess að staðfesta fyrir Íslands hönd samþykkt um alþjóðasiglingamálastofnun (IMCO)
 * [1960  nr. 29  23. maí](1960029.md) Lög um eignarnámsheimild fyrir Húsavíkurkaupstað á svokölluðu Preststúni í Húsavíkurlandi
@@ -846,13 +859,11 @@
 * [1959  nr. 18  22. apríl](1959018.md) Lög um happdrætti fyrir Samband íslenskra berkla- og brjóstholssjúklinga
 * [1958  nr. 34  17. maí](1958034.md) Lög um eignarnámsheimild fyrir Hvammstangahrepp á erfðafesturéttindum í eignarlandi hans
 * [1958  nr. 31  17. maí](1958031.md) Lög um sölu nokkurra jarða í opinberri eigu og um eignarnám erfðafesturéttinda
-* [1957  nr. 17  29. mars](1957017.md) Lög um heimild fyrir ríkisstjórnina til að taka eignarnámi jarðirnar Borg, Dynjanda og Rauðsstaði í Auðkúluhreppi, Vestur-Ísafjarðarsýslu
 * [1956  nr. 92  27. desember](1956092.md) Lög um að banna hnefaleika
 * [1956  nr. 57  10. apríl](1956057.md) Lög um prentrétt
 * [1956  nr. 13  15. febrúar](1956013.md) Lög um kirkjuítök og sölu þeirra
 * [1955  nr. 74  9. desember](1955074.md) Auglýsing um aðild Íslands að alþjóðasamningi um stöðu flóttamanna
 * [1955  nr. 30  11. maí](1955030.md) Lög um bæjarstjórn í Kópavogskaupstað
-* [1955  nr. 3  6. mars](1955003.md) Lög um skógrækt
 * [1954  nr. 107  18. desember](1954107.md) Lög um stækkun lögsagnarumdæmis Akureyrarkaupstaðar
 * [1954  nr. 103  17. desember](1954103.md) Lög um afnám ákvæða í lögum, sem binda atvinnuréttindi íslenskra ríkisborgara við undanfarna búsetu eða dvöl hér á landi
 * [1954  nr. 52  12. apríl](1954052.md) Lög um stækkun lögsagnarumdæmis Húsavíkurkaupstaðar
@@ -864,8 +875,6 @@
 * [1952  nr. 113  29. desember](1952113.md) Lög um lausn ítaka af jörðum
 * [1952  nr. 104  27. desember](1952104.md) Lög um ábyrgð ríkissjóðs vegna viðskipta við lönd, sem versla á jafnvirðis- og vöruskiptagrundvelli
 * [1952  nr. 100  23. desember](1952100.md) Lög um íslenskan ríkisborgararétt
-* [1952  nr. 73  25. nóvember](1952073.md) Lög um tilkynningar aðsetursskipta
-* [1952  nr. 13  31. janúar](1952013.md) Lög um skógræktardag skólafólks
 * [1951  nr. 110  19. desember](1951110.md) Lög um lagagildi varnarsamnings milli Íslands og Bandaríkjanna og um réttarstöðu liðs Bandaríkjanna og eignir þess
 * [1951  nr. 16  9. febrúar](1951016.md) Lög um mælingu og skrásetningu lóða og landa í lögsagnarumdæmi Akureyrar
 * [1949  nr. 109  30. desember](1949109.md) Lög um bæjarstjórn í Húsavík
@@ -943,7 +952,6 @@
 * [1932  nr. 27  23. júní](1932027.md) Lög um samgöngubætur og fyrirhleðslur á vatnasvæði Þverár og Markarfljóts
 * [1932  nr. 22  23. júní](1932022.md) Lög um forkaupsrétt kaupstaða og kauptúna á hafnarmannvirkjum o.fl.
 * [1931  nr. 69  8. september](1931069.md) Lög um stækkun lögsagnarumdæmis Reykjavíkur
-* [1931  nr. 36  8. september](1931036.md) Lög um embættiskostnað sóknarpresta og aukaverk þeirra
 * [1931  nr. 29  8. september](1931029.md) Lög um heimild fyrir ríkisstjórnina til þess að láta öðlast gildi alþjóðleg einkamálaréttarákvæði í samningi milli Íslands, Danmerkur, Finnlands, Noregs og Svíþjóðar, um hjúskap, ættleiðingu og lögráð
 * [1931  nr. 18  6. júlí](1931018.md) Lög um utanfararstyrk presta
 * [1931  nr. 17  6. júlí](1931017.md) Lög um bókasöfn prestakalla
@@ -959,14 +967,12 @@
 * [1926  nr. 4  15. júní](1926004.md) Lög um heimild fyrir ríkisstjórnina til að ganga inn í viðbótarsamning við myntsamning Norðurlanda
 * [1925  nr. 31  27. júní](1925031.md) Lög um einkenning fiskiskipa
 * [1925  nr. 30  27. júní](1925030.md) Lög um selaskot á Breiðafirði og uppidráp
-* [1924  nr. 51  4. júní](1924051.md) Lög um ríkisskuldabréf
 * [1924  nr. 4  11. apríl](1924004.md) Lög um að miða við gullkrónur sektir fyrir landhelgisbrot
 * [1923  nr. 46  20. júní](1923046.md) Lög um stækkun lögsagnarumdæmis Reykjavíkur
 * [1923  nr. 15  20. júní](1923015.md) Vatnalög
 * [1922  nr. 12  19. júní](1922012.md) Lög um verslunarskýrslur
 * [1921  nr. 54  27. júní](1921054.md) Lög um sölu á prestsmötu
 * [1921  nr. 51  27. júní](1921051.md) Lög um lífeyrissjóð embættismanna og ekkna þeirra
-* [1921  nr. 20  27. júní](1921020.md) Lög um eignarnám á vatnsréttindum í Andakílsá o.fl.
 * [1920  nr. 17  18. maí](1920017.md) Lög um að leggja jarðirnar Kjarna og Hamra í Hrafnagilshreppi undir lögsagnarumdæmi og bæjarfélag Akureyrar
 * [1920  nr. 8  18. maí](1920008.md) Lög um heimild handa ríkisstjórninni til að banna flutning til landsins á varningi, sem stjórnin telur stafa sýkingarhættu af
 * [1919  nr. 61  28. nóvember](1919061.md) Lög um bæjarstjórn á Seyðisfirði
@@ -985,7 +991,6 @@
 * [1911  nr. 36  11. júlí](1911036.md) Lög um forgangsrétt kandídata frá háskóla Íslands til embætta
 * [1909  nr. 31  9. júlí](1909031.md) Lög um eignarnámsheimild fyrir bæjarstjórn Ísafjarðarkaupstaðar á lóð undir skólabygging
 * [1909  nr. 28  9. júlí](1909028.md) Lög um að leggja jörðina Naust í Hrafnagilshreppi í Eyjafjarðarsýslu undir lögsagnarumdæmi og bæjarfélag Akureyrarkaupstaðar
-* [1907  nr. 46  16. nóvember](1907046.md) Lög um laun sóknarpresta
 * [1907  nr. 22  16. nóvember](1907022.md) Lög um umsjón og fjárhald kirkna
 * [1905  nr. 46  10. nóvember](1905046.md) Lög um hefð
 * [1903  nr. 42  13. nóvember](1903042.md) Lög um verslanaskrár, firmu og prókúruumboð
