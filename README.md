@@ -25,7 +25,7 @@ You can [read the lagasafn in markdown here](https://github.com/althingi/lagasaf
 
 ## Requirements
 
-`Python 2.7`, `pip` and pip modules listed in `requirements.txt`.
+`Python 3.8.2`, `pip` and pip modules listed in `requirements.txt`.
 
 ```bash
 pip install -r requirements.txt

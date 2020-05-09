@@ -1,11 +1,10 @@
 #!/usr/bin/python
-# -*- coding: utf-8 -*-
 import argparse
 import codecs
+import io
 import logging
 import os
 import string
-import StringIO
 import zipfile
 
 import requests
@@ -46,30 +45,34 @@ PAGE = {
 
 
 def download_and_extract_newest_lagasafn_zip(logger):
-    logger.info(u'Downloading newest lagasafn ZIP archive ..')
-    zip_file_url = 'https://www.althingi.is/lagasafn/zip/nuna/allt.zip'
+    logger.info('Downloading newest lagasafn ZIP archive ..')
+    zip_file_url = 'https://www.althingi.is/lagasafn/zip/150a/allt.zip'
     result = requests.get(zip_file_url, stream=True)
     result.raise_for_status()
-    zip_archive = zipfile.ZipFile(StringIO.StringIO(result.content))
+    zip_archive = zipfile.ZipFile(io.BytesIO(result.content))
     zip_archive.extractall(HTML_FOLDER)
     filelist = [f for f in os.listdir(HTML_FOLDER) if f.endswith('.html')]
     for filename in filelist:
-        logger.info(u'ZIP: Extracting %s ..', filename)
-        html_txt = u''
+        logger.info('ZIP: Extracting %s ..', filename)
+        html_txt = ''
         filename_pwd = os.path.join(HTML_FOLDER, filename)
         # [althingi.is bad]
         # codec seems to be "Western (Windows 1252)" or cp1252
-        with codecs.open(filename_pwd, 'r', 'cp1252') as html_file:
-            html_txt = html_file.read()
+        try:
+            with codecs.open(filename_pwd, 'r', 'cp1252') as html_file:
+                html_txt = html_file.read()
+        except UnicodeDecodeError:
+            logger.warning('Could not read %s with codec cp1252, skipping ..')
+            continue
         # rewrite html charset declaration
         html_txt = html_txt.replace('charset=iso-8859-1', 'charset=utf-8', 1)
         # [althingi.is bad]
         # deny javascript (mainly spy tools like google analytics anyway)
         html_txt = deny_js_scripts(html_txt)
         # rewrite html files in superior utf-8 codec
-        with open(filename_pwd, 'w') as html_file:
+        with open(filename_pwd, 'wb') as html_file:
             html_file.write(html_txt.encode('utf-8'))
-    logger.info(u'ZIP: Extraction finished.')
+    logger.info('ZIP: Extraction finished.')
 
 
 def deny_js_scripts(html_txt):
@@ -85,7 +88,7 @@ def deny_js_scripts(html_txt):
 
 
 def convert_html_files_to_md_files(logger):
-    logger.info(u'Starting conversion of HTML files to MD ..')
+    logger.info('Starting conversion of HTML files to MD ..')
     filelist = [f for f in os.listdir(HTML_FOLDER) if f.endswith('.html')]
     filelist.sort()
     for filename in reversed(PAGE['chapters']):
@@ -107,16 +110,16 @@ def convert_html_files_to_md_files(logger):
         if filename == PAGE['index2']:
             # index duplicate file
             continue
-        html_txt = u''
+        html_txt = ''
         filename_pwd = os.path.join(HTML_FOLDER, filename)
         with codecs.open(filename_pwd, 'r', 'utf-8') as html_file:
             html_txt = html_file.read()
         # skip revoked laws
-        if u'<small><b>Felld úr gildi skv. ' in html_txt:
+        if '<small><b>Felld úr gildi skv. ' in html_txt:
             continue
-        if u'<small>Felld úr gildi skv. ' in html_txt:
+        if '<small>Felld úr gildi skv. ' in html_txt:
             continue
-        if u'<small><b>Fellt úr gildi skv. ' in html_txt:
+        if '<small><b>Fellt úr gildi skv. ' in html_txt:
             # [althingi.is bad]
             # sometimes felld úr gildi and sometimes fellt úr gildi ..
             continue
@@ -127,14 +130,14 @@ def convert_html_files_to_md_files(logger):
         else:
             md_filename = filename.replace('.html', '.md')
         md_filename_pwd = os.path.join(MD_FOLDER, md_filename)
-        with open(md_filename_pwd, 'w') as outfile:
+        with open(md_filename_pwd, 'wb') as outfile:
             outfile.write(md_text.encode('utf-8'))
-    logger.info(u'File "%s" is a list of chapters page ..', filename)
-    logger.info(u'Finished conversion of HTML files to MD.')
+    logger.info('File "%s" is a list of chapters page ..', filename)
+    logger.info('Finished conversion of HTML files to MD.')
 
 
 def parse_html_to_md(logger, filename, html_txt, data):
-    logger.info(u'Parsing "%s" to markdown ..', filename)
+    logger.info('Parsing "%s" to markdown ..', filename)
     if filename == PAGE['index']:
         md_txt = parse_index_page(logger, filename, html_txt)
     elif filename == PAGE['list_of_chapters']:
@@ -147,50 +150,50 @@ def parse_html_to_md(logger, filename, html_txt, data):
     else:
         # from here we assume we have a law page
         md_txt = parse_law_page(logger, filename, html_txt, data)
-    logger.info(u'Finished parsing "%s".', filename)
+    logger.info('Finished parsing "%s".', filename)
     return md_txt
 
 
 def parse_index_page(logger, filename, html_txt):
-    logger.info(u'File "%s" is an index page ..', filename)
+    logger.info('File "%s" is an index page ..', filename)
     dom = lxml.etree.fromstring(html_txt, lxml.etree.HTMLParser())
-    md_txt = u''
+    md_txt = ''
     title = dom.find('body').find('h1').text
-    md_txt += u'# %s\n\n' % (title, )
+    md_txt += '# %s\n\n' % (title, )
     li_elements = dom.find('body').find('ul').findall('li')
     for li_element in li_elements:
         a_element = li_element.find('a')
         a_text = a_element.text
         href = a_element.get('href').replace('.html', '.md')
-        md_txt += u'* [%s](%s)\n' % (a_text, href)
+        md_txt += '* [%s](%s)\n' % (a_text, href)
     return md_txt
 
 
 def parse_list_of_chapters_page(logger, filename, html_txt):
-    logger.info(u'File "%s" is a list of chapters page ..', filename)
+    logger.info('File "%s" is a list of chapters page ..', filename)
     dom = lxml.etree.fromstring(html_txt, lxml.etree.HTMLParser())
-    md_txt = u''
+    md_txt = ''
     title = dom.find('body').find('h2').text
-    md_txt += u'# %s\n\n' % (title, )
+    md_txt += '# %s\n\n' % (title, )
     li_elements = dom.find('body').find('ol').findall('li')
     li_number = 1
     for li_element in li_elements:
         a_element = li_element.find('a')
         a_text = a_element.text
         a_href = a_element.get('href').replace('.html', '.md')
-        md_txt += u'%s. [%s](%s)\n' % (li_number, a_text, a_href)
+        md_txt += '%s. [%s](%s)\n' % (li_number, a_text, a_href)
         li_number += 1
     return md_txt
 
 
 def parse_alt_sorted_list_of_chapters_page(logger, filename, html_txt):
     logger.info(
-        u'File "%s" is an alt sorted list of chapters page ..', filename)
+        'File "%s" is an alt sorted list of chapters page ..', filename)
     dom = lxml.etree.fromstring(html_txt, lxml.etree.HTMLParser())
-    md_txt = u''
+    md_txt = ''
     h1_element = dom.find('body').find('h1')
     title = ''.join([x for x in h1_element.itertext()])
-    md_txt += u'# %s\n\n' % (title, )
+    md_txt += '# %s\n\n' % (title, )
     li_elements = dom.find('body').find('ul').findall('li')
     for li_element in li_elements:
         a_element = li_element.find('a')
@@ -198,27 +201,26 @@ def parse_alt_sorted_list_of_chapters_page(logger, filename, html_txt):
         a_href = a_element.get('href').replace('.html', '.md')
         if filename == 'lagas.nr.html':
             law_name = [x for x in li_element.itertext()][1].strip()
-            md_txt += u'* [%s](%s) %s\n' % (a_text, a_href, law_name)
+            md_txt += '* [%s](%s) %s\n' % (a_text, a_href, law_name)
         else:
             law_name = [x for x in li_element.itertext()][0].strip()
-            md_txt += u'* %s [%s](%s)\n' % (law_name, a_text, a_href)
+            md_txt += '* %s [%s](%s)\n' % (law_name, a_text, a_href)
     return md_txt
 
 
 def parse_chapter_page(logger, filename, html_txt, data):
-    logger.info(u'File "%s" is a chapter page ..', filename)
+    logger.info('File "%s" is a chapter page ..', filename)
     dom = lxml.etree.fromstring(html_txt, lxml.etree.HTMLParser())
-    md_txt = u''
+    md_txt = ''
     title = dom.find('body').find('h2').text.replace('Kaflar lagasafns: ', '')
     if data['_v'] is None:
         data['_v'] = [x for x in dom.find('body').itertext()][2].strip()
-    md_txt += u'# %s\n\n' % (title, )
-    law_number = u''
-    law_title = u''
+    md_txt += '# %s\n\n' % (title, )
+    law_number = ''
+    law_title = ''
     char_to_number_map = {c: str(ord(c) - 96) for c in string.ascii_lowercase}
     tuple_of_txt_containers = (
         str,
-        unicode,
         lxml.etree._ElementStringResult,
         lxml.etree._ElementUnicodeResult
     )
@@ -234,21 +236,21 @@ def parse_chapter_page(logger, filename, html_txt, data):
                 law_number = law_number.replace(key, char_to_number_map[key])
             if law_number.endswith('.'):
                 law_number = law_number[:-1]
-            md_txt += u'## %s %s\n\n' % (law_number, law_title)
+            md_txt += '## %s %s\n\n' % (law_number, law_title)
         elif body_child.tag == 'ul':
-            if law_number == u'':
+            if law_number == '':
                 # [althingi.is bad]
                 # sometimes we have subchapters for a chapter, sometimes not
                 # let's create dummy subchapter when absent for consistency
                 law_number, law_title = title.split(' ', 1)
                 if law_number.endswith('.'):
                     law_number = '%s.1' % (law_number[:-1], )
-                md_txt += u'## %s %s\n\n' % (law_number, law_title)
+                md_txt += '## %s %s\n\n' % (law_number, law_title)
             li_number = 1
             for li_element in body_child.findall('li'):
                 li_child_nodes = [x for x in li_element.xpath('child::node()')]
-                md_txt += u'* __%s.%s__ ' % (law_number, li_number)
-                law_name = u''
+                md_txt += '* __%s.%s__ ' % (law_number, li_number)
+                law_name = ''
                 a_text = None
                 a_href = None
                 law_key = None
@@ -272,7 +274,7 @@ def parse_chapter_page(logger, filename, html_txt, data):
                         law_name += li_child_text
                         continue
                     elif li_child_tag == 'a' and li_child_text != a_text:
-                        law_name += u'[%s](%s)' % (
+                        law_name += '[%s](%s)' % (
                             li_child_text,
                             li_child_node.get(
                                 'href'
@@ -294,7 +296,7 @@ def parse_chapter_page(logger, filename, html_txt, data):
                         law_key = a_href.replace('.md', '')
                         continue
                 md_txt += law_name
-                md_txt += u' [%s](%s)\n' % (a_text, a_href)
+                md_txt += ' [%s](%s)\n' % (a_text, a_href)
                 if a_text is None or a_href is None:
                     raise Exception('Failed to find link to lawpage.')
                 if law_key is None:
@@ -305,7 +307,7 @@ def parse_chapter_page(logger, filename, html_txt, data):
                     'nr_and_date': a_text
                 }
                 li_number += 1
-            md_txt += u'\n'
+            md_txt += '\n'
             continue
         elif body_child.tag == 'li':
             # [althingi.is bad]
@@ -316,7 +318,7 @@ def parse_chapter_page(logger, filename, html_txt, data):
             a_element = li_element.find('a')
             a_text = a_element.text
             a_href = a_element.get('href').replace('.html', '.md')
-            md_txt += u'* __%s.%s__ %s [%s](%s)\n\n' % (
+            md_txt += '* __%s.%s__ %s [%s](%s)\n\n' % (
                 law_number, 1, law_name, a_text, a_href
             )
             data['laws'][a_href.replace('.md', '')] = {
@@ -331,13 +333,12 @@ def parse_chapter_page(logger, filename, html_txt, data):
 
 
 def parse_law_page(logger, filename, html_txt, data):
-    logger.info(u'File "%s" is a law page ..', filename)
+    logger.info('File "%s" is a law page ..', filename)
     # [althingi.is bad] **VERY BAD**
     # law pages are horrendusly badly structured
     # parsing this nonsense might become very pesky, perhaps even impossible
     tuple_of_txt_containers = (
         str,
-        unicode,
         lxml.etree._ElementStringResult,
         lxml.etree._ElementUnicodeResult
     )
@@ -346,7 +347,7 @@ def parse_law_page(logger, filename, html_txt, data):
     def subtxt(node):
         # helper function, stringifies children of provided element
         # stackoverflow source: https://stackoverflow.com/a/44918940/2401628
-        children_txt = u''
+        children_txt = ''
         for child in node.getchildren():
             children_txt += lxml.etree.tostring(child, encoding='unicode')
         return children_txt
@@ -361,9 +362,17 @@ def parse_law_page(logger, filename, html_txt, data):
             return False
 
     dom = lxml.etree.fromstring(html_txt, lxml.etree.HTMLParser())
-    md_txt = u''
-    law_info = data['laws'][filename.replace('.html', '')]
-    md_txt += u'# %s %s\n\n`%s`\n\n_%s_\n\n' % (
+    md_txt = ''
+    if filename.replace('.html', '') in data['laws']:
+        law_info = data['laws'][filename.replace('.html', '')]
+    else:
+        logger.warning('missing law_info ..')
+        law_info = {
+            'name': '[missing law info, name]',
+            'chapter': '[missing law info, chapter]',
+            'nr_and_date': '[missing law info, nr_and_date]'
+        }
+    md_txt += '# %s %s\n\n`%s`\n\n_%s_\n\n' % (
         law_info['chapter'],
         law_info['name'],
         law_info['nr_and_date'],
@@ -381,9 +390,9 @@ def parse_law_page(logger, filename, html_txt, data):
             tag = element_or_str.tag
             text = element_or_str.text
         if not beyond_header:
-            if (tag == 'a' and
-               subtxt(element_or_str) ==
-               u'<i>Ferill m\xe1lsins \xe1 Al\xfeingi.</i>'):
+            if (
+                tag == 'a' and subtxt(element_or_str) == '<i>Ferill m\xe1lsins \xe1 Al\xfeingi.</i>'
+            ):
                 # [althingi.is bad]
                 # outdated url redirect, https redirects to http ffs *barf*
                 law_history_url = element_or_str.get('href').replace(
@@ -393,19 +402,17 @@ def parse_law_page(logger, filename, html_txt, data):
                         'thingmalalistar-eftir-thingum/ferill/'
                     )
                 )
-                md_txt += u'[Ferill málsins á Alþingi](%s)\n' % (
+                md_txt += '[Ferill málsins á Alþingi](%s)\n' % (
                     law_history_url,
                 )
-            elif (tag == 'a' and
-                  subtxt(element_or_str) ==
-                  u'<i>Frumvarp til laga.</i>'):
+            elif (tag == 'a' and subtxt(element_or_str) == '<i>Frumvarp til laga.</i>'):
                 # [althingi.is bad]
                 # why no https?
                 law_proposal_pdf_url = element_or_str.get('href').replace(
                     'http://',
                     'https://'
                 )
-                md_txt += u'[Frumvarp til laga.](%s)\n\n' % (
+                md_txt += '[Frumvarp til laga.](%s)\n\n' % (
                     law_proposal_pdf_url,
                 )
             elif (tag == 'small' and 'gildi' in subtxt(element_or_str)):
@@ -420,22 +427,22 @@ def parse_law_page(logger, filename, html_txt, data):
                         small_tag = small_child_node.tag
                         small_text = small_child_node.text
                     if small_tag == 'b':
-                        md_txt += u'**%s**\n' % (small_text, )
+                        md_txt += '**%s**\n' % (small_text, )
                     elif small_tag == 'em':
-                        md_txt += u'%s\n' % (small_text.strip(), )
+                        md_txt += '%s\n' % (small_text.strip(), )
                     elif small_tag == 'a':
                         law_change_url = '%s%s' % (
                             'https://althingi.is',
                             small_child_node.get('href')
                         )
-                        md_txt += u'[%s](%s) ' % (
+                        md_txt += '[%s](%s) ' % (
                             small_child_node.text,
                             law_change_url
                         )
                     elif small_tag is None and 'gildi' in small_text:
-                        md_txt += u'%s\n' % (small_text, )
+                        md_txt += '%s\n' % (small_text, )
                     elif small_tag == 'br':
-                        md_txt += u'\n'
+                        md_txt += '\n'
                         beyond_header = True
             continue
         if tag is None and text in empty_texts:
@@ -445,15 +452,14 @@ def parse_law_page(logger, filename, html_txt, data):
         elif tag == 'b' and text is not None and isRoman(text[:-1]):
             chapter_nr = roman.fromRoman(text[:-1])
             if chapter_nr > 1:
-                md_txt += u'\n\n'
-            md_txt += u'## %s. kafli\n\n' % (chapter_nr, )
+                md_txt += '\n\n'
+            md_txt += '## %s. kafli\n\n' % (chapter_nr, )
             continue
         elif tag == 'b' and text is not None and '. gr.' in text:
             continue
         elif tag == 'span' and element_or_str.get('id') is not None:
             span_id = element_or_str.get('id')
-            if ('M' in span_id and 'L' in span_id and element_or_str.text is
-               not None):
+            if ('M' in span_id and 'L' in span_id and element_or_str.text is not None):
                 span_text = element_or_str.text
                 if span_text.endswith('.'):
                     span_text = span_text[:-1]
@@ -465,10 +471,10 @@ def parse_law_page(logger, filename, html_txt, data):
                     )
                 if '.' in span_text:
                     span_text = span_text.split('.')[-1]
-                if span_text == u'\u2014':
+                if span_text == '\u2014':
                     # www.fileformat.info/info/unicode/char/2014/index.htm
                     continue
-                span_text = u'%s' % (span_text, )
+                span_text = '%s' % (span_text, )
                 span_text = span_text.replace(
                     '[', ''
                 ).replace(
@@ -478,16 +484,18 @@ def parse_law_page(logger, filename, html_txt, data):
                 ).replace(
                     ')', ''
                 ).replace(
-                    u'\u201e', ''
+                    '\u201e', ''
+                ).replace(
+                    '–', '-'
                 )
-                if span_text in (u'ú', u'þ', u'æ', u'ö', u'–'):
+                if span_text in ('ú', 'þ', 'æ', 'ö', '-'):
                     continue
-                if span_text in (u'\u2026', u'\u201e10', u' ', u''):
+                if span_text in ('\u2026', '\u201e10', ' ', ''):
                     continue
                 span_int = int(span_text)
                 if span_int > 1:
-                    md_txt += u'\n'
-                md_txt += u'%s. ' % (span_int, )
+                    md_txt += '\n'
+                md_txt += '%s. ' % (span_int, )
                 continue
             else:
                 span_id = span_id.lower()
@@ -495,8 +503,8 @@ def parse_law_page(logger, filename, html_txt, data):
                     span_id = span_id.replace(key, '')
                 clause_nr = int(span_id)
                 if clause_nr > 1:
-                    md_txt += u'\n\n'
-                md_txt += u'### %s. grein\n\n' % (clause_nr, )
+                    md_txt += '\n\n'
+                md_txt += '### %s. grein\n\n' % (clause_nr, )
                 continue
         elif tag == 'img' and element_or_str.get('src') == 'sk.jpg':
             continue
@@ -506,10 +514,10 @@ def parse_law_page(logger, filename, html_txt, data):
             md_txt += text.strip()
             continue
         elif tag == 'img' and element_or_str.get('src') == 'hk.jpg':
-            md_txt += u'\n\n'
+            md_txt += '\n\n'
             continue
         elif tag == 'sup' and text is not None and text.endswith(')'):
-            md_txt += u'<sup>%s</sup> ' % (text, )
+            md_txt += '<sup>%s</sup> ' % (text, )
             continue
         elif (tag == 'i' and ')' in subtxt(element_or_str) and 'L.' in
               subtxt(element_or_str)):
@@ -523,38 +531,41 @@ def parse_law_page(logger, filename, html_txt, data):
                 linktext = small_element_child.text
                 linkurl = small_element_child.get('href')
                 if supnumber == '1)':
-                    md_txt += u'\n\n> '
+                    md_txt += '\n\n> '
                 else:
-                    md_txt += u' '
-                md_txt += u'<sup>%s</sup> [%s](%s)' % (
+                    md_txt += ' '
+                md_txt += '<sup>%s</sup> [%s](%s)' % (
                     supnumber,
                     linktext,
                     'https://althingi.is%s' % (linkurl, )
                 )
             continue
-        elif (tag == 'sup' and body_child_nodes[i + 1] == '/' and
-              body_child_nodes[i + 2].tag == 'span'):
-            md_txt += u'<sup>%s</sup>&frasl;<sub>%s</sub>' % (
+        elif (
+            tag == 'sup' and
+            body_child_nodes[i + 1] == '/' and
+            body_child_nodes[i + 2].tag == 'span'
+        ):
+            md_txt += '<sup>%s</sup>&frasl;<sub>%s</sub>' % (
                 text,
                 body_child_nodes[i + 2].text
             )
             continue
         elif tag == 'span' and body_child_nodes[i - 1] == '/':
             continue
-        elif tag == 'a' and text == u'\u2026':
-            md_txt += u'[%s](%s)' % (
+        elif tag == 'a' and text == '\u2026':
+            md_txt += '[%s](%s)' % (
                 text,
                 'https://www.althingi.is/lagasafn/leidbeiningar/'
             )
             continue
         elif (tag == 'i' and len(element_or_str.getchildren()) == 0 and text is
               not None):
-            md_txt += u'_%s_ ' % (text, )
+            md_txt += '_%s_ ' % (text, )
             continue
         elif (tag == 'i' and len(element_or_str.getchildren()) == 0 and text is
               None):
             continue
-        elif tag == 'i' and element_or_str[0].getchildren() > 1:
+        elif tag == 'i' and len(element_or_str[0].getchildren()) > 1:
             i_small_child_nodes = [
                 x for x in element_or_str[0].xpath("child::node()")
             ]
@@ -567,13 +578,13 @@ def parse_law_page(logger, filename, html_txt, data):
                     i_small_tag = i_small_child_node.tag
                     i_small_text = i_small_child_node.text
                 if add_space:
-                    md_txt += u' '
+                    md_txt += ' '
                 if i_small_tag == 'sup':
                     if i_small_text == '1)':
-                        md_txt += u'\n\n> '
+                        md_txt += '\n\n> '
                     else:
-                        md_txt += u' '
-                    md_txt += u'<sup>%s</sup>' % (i_small_text, )
+                        md_txt += ' '
+                    md_txt += '<sup>%s</sup>' % (i_small_text, )
                     add_space = True
                     continue
                 elif i_small_tag is None and i_small_text is not None:
@@ -581,34 +592,34 @@ def parse_law_page(logger, filename, html_txt, data):
                     continue
                 elif (i_small_tag == 'a' and i_small_text is not None and
                       i_small_child_node.get('href') is not None):
-                    md_txt += u'[%s](%s)' % (
+                    md_txt += '[%s](%s)' % (
                         i_small_text,
                         i_small_child_node.get('href').replace('.html', '.md')
                     )
                     continue
-            md_txt += u'\n\n'
+            md_txt += '\n\n'
             continue
         elif (tag == 'b' and
-              element_or_str.text == u'\xc1kv\xe6\xf0i um stundarsakir.'):
-            md_txt += u'## %s\n\n' % (element_or_str.text, )
+              element_or_str.text == '\xc1kv\xe6\xf0i um stundarsakir.'):
+            md_txt += '## %s\n\n' % (element_or_str.text, )
             continue
         elif tag == 'img' and element_or_str.get('src') == '/lagas/hk.jpg':
             # [althingi.is bad]
             # image tag, with src whose image is missing
             continue
         elif tag == 'a':
-            md_txt += u' [%s](%s) ' % (
+            md_txt += ' [%s](%s) ' % (
                 element_or_str.text,
                 element_or_str.get('href').replace('.html', '.md')
             )
             continue
-    md_txt += u'\n'
+    md_txt += '\n'
     return md_txt
 
 
 if __name__ == '__main__':
     # TODO: figure out which CLI tools would be nice to have and add them
-    parser = argparse.ArgumentParser(u'Al\xfeingi lagasafn CLI')
+    parser = argparse.ArgumentParser('Al\xfeingi lagasafn CLI')
     parser.add_argument(
         '--foo',
         action='store',
@@ -618,7 +629,7 @@ if __name__ == '__main__':
     )
     logging.basicConfig(level=DEFAULT_LOGGING_LVL)
     logger = logging.getLogger(__name__)
-    logger.info(u'Al\xfeingi lagasafn CLI started ..')
+    logger.info('Al\xfeingi lagasafn CLI started ..')
     arguments = parser.parse_args()
     download_and_extract_newest_lagasafn_zip(logger)
     convert_html_files_to_md_files(logger)
