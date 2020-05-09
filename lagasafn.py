@@ -46,7 +46,7 @@ PAGE = {
 
 def download_and_extract_newest_lagasafn_zip(logger):
     logger.info('Downloading newest lagasafn ZIP archive ..')
-    zip_file_url = 'https://www.althingi.is/lagasafn/zip/150a/allt.zip'
+    zip_file_url = 'https://www.althingi.is/lagasafn/zip/nuna/allt.zip'
     result = requests.get(zip_file_url, stream=True)
     result.raise_for_status()
     zip_archive = zipfile.ZipFile(io.BytesIO(result.content))
